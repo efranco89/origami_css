@@ -23,6 +23,10 @@ header{
   background-color: #ccc;
 }
 
+#content{
+  overflow: auto;
+}
+
 footer{
   background-color: #00adee;
   height: 33px;
@@ -145,4 +149,45 @@ nav #logo{
 
 #news > div > a:hover p{
   color: #fff;
+}
+
+/* for the principal container */
+
+.introduction-column{
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  padding: 30px;
+  position: relative;
+  width: 50%;
+}
+
+.introduction-column > h1,
+.introduction-column > h2{
+
+  display: block;
+  font-weight: normal;
+  margin: 0 0 5px;
+  position: relative;
+
+}
+
+.introduction-column > h1{
+  font-size: 36px;
+}
+
+.introduction-column > h2{
+  font-size: 18px;
+}
+
+.introduction-column > p{
+  margin: 0 0 25px;
+}
+
+.introduction-column * {
+  padding-left: 40px;
+}
+
+.blue-bullet{
+  background: url(../imagenes/bullet.jpg) no-repeat left center;
 }
