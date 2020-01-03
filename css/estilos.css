@@ -191,3 +191,77 @@ nav #logo{
 .blue-bullet{
   background: url(../imagenes/bullet.jpg) no-repeat left center;
 }
+
+/* for the foother */
+
+footer > h4{
+  background-color: #404041;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+  padding: 8px 35px 9px;
+  position: relative;
+}
+
+footer  span {
+  color: #fff;
+  display: inline-block;
+  padding-left: 60px;
+  position: relative;
+}
+
+footer span a{
+  color: #fff;
+  text-decoration: none;
+}
+
+footer span a:hover{
+  text-decoration: underline;
+}
+
+footer div{
+  background-color: #404041;
+  display: block;
+  height: 33px;
+  padding: 0 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+footer div a{
+  position: relative;
+  display: inline-block;
+  width: 33px;
+  height: 33px;
+  text-indent: 100px;
+  overflow: hidden;
+  background-image: url(../imagenes/iconos-sociales.png);
+  background-repeat: no-repeat;
+}
+
+footer div #facebook{
+  background-position: 11px 5px;
+}
+
+footer div #facebook:hover{
+  background-position: 11px -28px;
+}
+
+footer div #youtube{
+  background-position: -40px 5px;
+}
+
+footer div #youtube:hover{
+  background-position: -40px -28px;
+}
+
+footer div #twitter{
+  background-position: -85px 5px;
+}
+
+footer div #twitter:hover{
+  background-position: -85px -28px;
+}
