@@ -19,6 +19,10 @@ header, footer, #content{
   position: relative;
 }
 
+header{
+  background-color: #ccc;
+}
+
 footer{
   background-color: #00adee;
   height: 33px;
@@ -61,4 +65,24 @@ nav #logo{
   text-indent: 500px;
   vertical-align: top;
   width: 196px;
+}
+
+/* for the image header */
+#header-image{
+  background-image: url(../imagenes/fondo-portada.jpg);
+  display: block;
+  height: 280px;
+  position: relative;
+}
+
+#header-image > span {
+  background-color: rgba(64, 64, 65, 0.60);
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  display: block;
+  font-size: 42px;
+  padding: 15px 120px;
+  position: absolute;
+  right: 0;
 }
