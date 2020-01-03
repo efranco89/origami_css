@@ -86,3 +86,63 @@ nav #logo{
   position: absolute;
   right: 0;
 }
+
+/* for the news */
+#news{
+  background-color: #fff;
+  bottom: 0;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 225px;
+}
+
+#news > div {
+  display: block;
+  height: 295px;
+  overflow: auto;
+  position: relative;
+}
+
+#news > a{
+  background-color: #00adee;
+  bottom: 0;
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  left: 0;
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+#news > div > a{
+  color: #58595b;
+  display: block;
+  padding: 10px;
+  position: relative;
+  text-decoration: none;
+}
+
+#news > div > a > span{
+  color: #00adee;
+  display: block;
+  font-size: 18px;
+  margin: 0 0 5px;
+  position: relative;
+}
+
+#news > div > a > p{
+  margin: 0;
+}
+
+#news > div > a:hover {
+  background-color: #404041;
+}
+
+#news > div > a:hover p{
+  color: #fff;
+}
