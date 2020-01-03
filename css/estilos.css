@@ -265,3 +265,109 @@ footer div #twitter{
 footer div #twitter:hover{
   background-position: -85px -28px;
 }
+
+/* for the left column */
+#left-column{
+  background-color: #00adee;
+  bottom: 0;
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  position: absolute;
+  top: 0;
+  width: 25%;
+}
+
+#top-image{
+  background-image: url(../imagenes/mosaico-fases.jpg);
+  display: block;
+  height: 225px;
+  position: relative;
+  width: 99%;
+}
+
+#left-column h1{
+  color: #fff;
+  font-weight: normal;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+#menu-options{
+  background-color: #fff;
+  bottom: 0;
+  display: block;
+  position: absolute;
+  top: 273px;
+  width: 99%;
+}
+
+#menu-options a{
+  color: #00adee;
+  display: block;
+  font-size: 18px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#menu-options a:hover{
+  background-color: #404041;
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+#right-column{
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  padding: 30px;
+  position: relative;
+  width: 75%;
+  bottom: 0;
+  left: 25%;
+}
+
+#right-column h1{
+  color: #000;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+}
+
+#right-column h2{
+  color: #00adee;
+  font-size: 18px;
+  margin: 0;
+}
+
+#right-column p{
+  color: #000;
+  text-align: justify;
+}
+
+#next-button{
+  text-align: right;
+}
+
+#next-button button{
+  background-color: #00adee;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px 30px;
+}
+
+#next-button button:hover{
+  background-color: orangered;
+}
