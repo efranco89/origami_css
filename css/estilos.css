@@ -23,3 +23,42 @@ footer{
   background-color: #00adee;
   height: 33px;
 }
+
+
+/* This is for the nav bar */
+nav{
+  background-color: #00adee;
+  height: 51px;
+  display: block;
+  position: relative;
+}
+
+nav a{
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  margin-top: 8px;
+  padding: 10px;
+  position: relative;
+  text-decoration: none;
+}
+
+nav a:hover{
+  background-color: #fff;
+  color: #404041;
+}
+
+nav #logo{
+  background-color: #fff;
+  background-image: url(../imagenes/logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 51px;
+  margin: 0;
+  margin-right: 30px;
+  overflow: hidden;
+  padding: 0;
+  text-indent: 500px;
+  vertical-align: top;
+  width: 196px;
+}
